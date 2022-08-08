@@ -1,0 +1,30 @@
+/* todas as paginas - removendo margin e padding padrao */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.TopoPagina{
+    text-align: right;
+	height: 100px;
+	background-color: #A9A9A9;
+	padding: 10px;
+}
+
+/* todas as paginas - formatação da barra de navegacao */
+.navegacao{
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 0px;
+}
+.navegacao a{
+	font-weight: bold;
+	text-decoration: none;
+}
+.navegacao a:hover {
+	background-color: #A9A9A9;
+    padding: 10px;
+}
+.BarraNavegacao{
+	padding: 10px;
+}

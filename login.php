@@ -59,7 +59,7 @@
 		<br>
 		<a href="cadastro.php">Cadastre-se</a>
 		&nbsp; | &nbsp;
-		<a href="esquecisenha">Esqueci minha senha</a>
+		<a href="esquecisenha.php">Esqueci minha senha</a>
 	</div>
 </body>
 </html>

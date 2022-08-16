@@ -28,8 +28,8 @@
 	<nav class="navegacao">
         <div class="BarraNavegacao">
             <a href="painel.php">INICIO</a>
-            <a href="chamado.php">CHAMADO</a>
-            <a href="relatorio.php">RELATORIO</a>
+            <a href="funcionario.php">FUNCIONARIO</a>
+            <a href="pagteste.php">TESTE</a>
         </div>
 	</nav><!--<nav class="navegacao">-->
 </body>

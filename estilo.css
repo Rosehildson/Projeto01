@@ -10,6 +10,11 @@
 	background-color: #A9A9A9;
 	padding: 10px;
 }
+.TopoPagina > a{
+    text-decoration: none;
+}
+
+/* todas as paginas - formatação da figura do avatar */
 
 /* todas as paginas - formatação da barra de navegacao */
 .navegacao{
@@ -25,6 +30,5 @@
 	background-color: #A9A9A9;
     padding: 10px;
 }
-.BarraNavegacao{
-	padding: 10px;
-}
+
+

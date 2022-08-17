@@ -38,14 +38,6 @@
         </style>
 </head>
 <body>
-    <div class="planogeral">
-        Plano geral
-        <div class="ladoesquerdo">
-            Lado esquerdo
-        </div>
-        <div class="ladodireito">
-            Lado direito
-        </div>
-    </div>
+        <input type="file">
 </body>
 </html>

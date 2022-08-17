@@ -17,6 +17,8 @@
 <body>
 	<header>
 		<div class="TopoPagina">
+            <img src="https://github.com/Lambrini2022.png" style="width: 3.5rem; border-radius: 50%;">
+            <br>
             <?php
                 $logado = $_SESSION['email'];
                 print_r($logado);

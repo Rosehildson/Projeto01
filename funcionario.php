@@ -12,11 +12,13 @@
 <head>
 	<meta charset="utf-8" />
 	<title>SISTEMA - CHAMDADO</title>
-	<link href="estilo.css" type="text/css" rel="stylesheet" />
+	<link href="estilo.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<header>
-		<div class="TopoPagina">
+		<div class="topo-pagina">
+            <img class="avatar" src="https://github.com/jolanjohnes.png"/>
+            <br>
             <?php
                 $logado = $_SESSION['email'];
                 print_r($logado);
@@ -25,19 +27,19 @@
             <a href="sair.php">Sair</a>
 		</div>
 	</header>
-	<nav class="navegacao">
-        <div class="BarraNavegacao">
-            <a href="painel.php">INICIO</a>
-            <a href="funcionario.php">FUNCIONARIO</a>
-            <a href="relatorio.php">RELATORIO</a>
-        </div>
+	<nav class="barra-navegacao">
+        <ul>
+            <li><a href="painel.php">INICIO</a></li>
+            <li><a href="funcionario.php">FUNCIONARIO</a></li>
+            <li><a href="pagteste.php">TESTE</a></li>
+		</ul>
 	</nav><!--<nav class="navegacao">-->
 	<div id="pagina-funcionario">
 		<form class="formulario-funcionario" action="php/conexao.php" method="post" target="_self">
 			<div class="funcionario-cadastro">
 				<h3>Cadastro de funcionário</h3><br/>
-				<!--<label for="id">Id:</label>
- 				<input type="text" id="id" name="id" value="id" disabled>-->
+				<label for="id">Id:</label>
+ 				<input type="text" id="id" name="id" value="id" disabled>
 				<label for="mmatricula">Matrícula: </label>
 			 	<input type="text" id="mmatricula" name="mmatricula" value="" size="5" required>
 				<label for="nnome">Nome completo: </label>

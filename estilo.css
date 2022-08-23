@@ -1,34 +1,28 @@
-/* todas as paginas - removendo margin e padding padrao */
+/* ############### css - todas as paginas ############### */
 *{
-	margin: 0;
-	padding: 0;
-	font-family: arial;
+
+	font-family: 'Courier New', Courier, monospace;
 }
-.TopoPagina{
+.topo-pagina{
     text-align: right;
 	height: 100px;
-	background-color: #A9A9A9;
+	background-color: SlateBlue;
 	padding: 10px;
 }
-.TopoPagina > a{
+.topo-pagina > a{
     text-decoration: none;
 }
-
-/* todas as paginas - formatação da figura do avatar */
-
-/* todas as paginas - formatação da barra de navegacao */
-.navegacao{
-	text-align: center;
-	text-transform: uppercase;
-	margin-left: 0px;
+.avatar{
+	width: 3.5rem;
+	border-radius: 50%;
 }
-.navegacao a{
-	font-weight: bold;
-	text-decoration: none;
-}
-.navegacao a:hover {
-	background-color: #A9A9A9;
-    padding: 10px;
+.barra-navegacao{
+    color: yellow;
+    list-style: none;
 }
 
+/* ############### css - pagina de painel ############### */
+
+
+/* ############### css - pagina de funcionario ############### */
 

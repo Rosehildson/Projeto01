@@ -20,6 +20,10 @@ $vemail = $_POST['eemail'];
 $vsenha = $_POST['ssenha'];
 
 $sql = mysqli_query($conn, "INSERT INTO usuarios(nome,fone,email,senha) VALUES ('$vnome','$vfone','$vemail','$vsenha')");
+	
+$message = ($sql ? '<script>alert(Ok)</script>' : '<script>alert(ERROR)</script>');	
+
+print_r($message);
 
 }
 ?>

@@ -12,12 +12,12 @@
 <head>
 	<meta charset="utf-8" />
 	<title>SISTEMA - PAINEL</title>
-	<link href="estilo.css" type="text/css" rel="stylesheet" />
+	<link href="estilo.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-	<header>
-		<div class="TopoPagina">
-            <img src="https://github.com/Lambrini2022.png" style="width: 3.5rem; border-radius: 50%;">
+	<header class="topo-pagina">
+		<div>
+            <img class="avatar" src="https://github.com/jolanjohnes.png">
             <br>
             <?php
                 $logado = $_SESSION['email'];
@@ -27,12 +27,12 @@
             <a href="sair.php">Sair</a>
 		</div>
 	</header>
-	<nav class="navegacao">
-        <div class="BarraNavegacao">
-            <a href="painel.php">INICIO</a>
-            <a href="funcionario.php">FUNCIONARIO</a>
-            <a href="pagteste.php">TESTE</a>
-        </div>
+	<nav class="barra-navegacao">
+        <ul>
+            <li><a href="painel.php">INICIO</a></li>
+            <li><a href="funcionario.php">FUNCIONARIO</a></li>
+            <li><a href="pagteste.php">TESTE</a></li>
+        </ul>
 	</nav><!--<nav class="navegacao">-->
 </body>
 </html>
